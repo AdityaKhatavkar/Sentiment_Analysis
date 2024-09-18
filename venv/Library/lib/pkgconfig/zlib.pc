@@ -1,0 +1,13 @@
+prefix=E:/DataScience_projects/Movie_recommendation-2/venv/Library
+exec_prefix=E:/DataScience_projects/Movie_recommendation-2/venv/Library
+libdir=E:/DataScience_projects/Movie_recommendation-2/venv/Library/lib
+sharedlibdir=E:/DataScience_projects/Movie_recommendation-2/venv/Library/lib
+includedir=E:/DataScience_projects/Movie_recommendation-2/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
