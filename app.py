@@ -1,3 +1,4 @@
+#importing libraires
 from flask import Flask, render_template, request
 import pickle
 from components.Data_Transformation import text_preprocessing  # Import the function from preprocessing.py
